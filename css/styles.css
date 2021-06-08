@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    scroll-behavior: smooth;
+}
+/*icono*/
+.bx{
+    font-size: 2em;
+    background-color: white;
+    float: right;
+    margin-right: 4px;
+    margin-top: 5px;
+    border-radius: 5px;
+    }
+.bx:hover{
+    cursor: pointer;
+}
+
+
+
+#check-menu:checked ~ ul{
+    margin-right: -7%;
+    transition: 2s;
+}
+#check-menu{
+    display: none;
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(1, 1, 27);
+
+    height: 50px;
+}
+.menu>ul{
+    width: 20%;
+    float:right;
+    margin-top: 40px;
+    transition: 2s;
+    margin-right: -30%;
+    margin-left: 20%;
+    
+
+}
+.menu>ul>li{
+    
+    background-color: rgb(1, 1, 27);
+    text-align: center;
+    margin-top: 1px;
+    
+    list-style: none;
+    border: 1px solid white;
+    
+}
+.menu>ul>li:hover{
+    background-color: rgb(5, 33, 117);
+    cursor: pointer;
+}
+.menu>ul>li>a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    
+    letter-spacing: 2px;
+
+}
+
+.A2021,.A2020,.A2019,.A2018,.A2017,.Inicio{
+    padding-top: 120px;
+    height: 100vh;
+}
+.Inicio{
+    background-image: url(https://i.pinimg.com/736x/86/b5/50/86b550bd839d2d56a094037cc8b50067.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.A2021{
+    background-color: rgb(46, 46, 117);;
+}
+.A2020{
+    background-color:  rgb(185, 12, 12);
+}
+.A2019{
+    
+    background-color:  #a00404ff ;
+}
+
+.A2018{
+    background-color: #d8d8d8ff;
+}
+.A2017{
+    background-color: #d8d8d8ff;;
+}
+
+.Principal{
+    margin-right: 1%;
+    padding-left: 25px;
+    padding-right: 200px;
+    text-align: center;
+    margin-top: -4%;
+    font-size: 1.0cm;
+    color: rgb(236, 236, 236);
+    font-family:'Times New Roman', Times, serif;   
+    
+}
+.C{
+    margin-left: 28%;
+    padding-left: 125px;
+    margin-top: 2%;
+    font-size: 1.0cm;
+    color: rgb(230, 230, 230);
+    font-family:'Times New Roman', Times, serif;   
+    }
+.B{
+    margin-left: 5%;
+    padding-left: 125px;
+    margin-top: 2%;
+    font-size: 1.0cm;
+    color: rgb(230, 230, 230);
+    font-family:'Times New Roman', Times, serif;   
+    }
+.L{
+    margin-left: 21%;
+    padding-left: 125px;
+    margin-top: 3%;
+    font-size: 1.0cm;
+    color: rgb(230, 230, 230);
+    font-family:'Times New Roman', Times, serif;   
+    }
+.R{
+    margin-left: 12%;
+    padding-left: 125px;
+    margin-top: 2%;
+    font-size: 1.0cm;
+    color: rgb(14, 14, 14);
+    font-family:'Times New Roman', Times, serif;   
+}
+.R2{
+    margin-left: 12%;
+    padding-left: 125px;
+    margin-top: 2%;
+    font-size: 1.0cm;
+    color: rgb(14, 14, 14);
+    font-family:'Times New Roman', Times, serif;   
+}
+
+.pop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(6, 47, 87, 0.801);
+    position: fixed;
+    top:0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 1.2cm;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pop>p{
+    width: 80%;
+    text-align: center;
+    border-bottom: 5px solid rgb(255, 254, 254);
+    background-color: rgb(1, 1, 27);
+    font-family: sans-serif;
+    padding: 20px;
+    
+}
+#close-pop{
+    z-index: 40;
+    position: absolute;
+    top: 0px;
+
+}
+#close-pop:checked ~ .pop{
+   display: none;
+
+}
+#close-pop:checked ~ .close{
+    display: none;
+ 
+ }
+ #close-pop{
+    display: none;
+ 
+ }
+.close{
+    z-index: 40;
+    position: absolute;
+    top: 35px;
+    font-weight: bold;
+    font-size: 0.7cm;
+    margin-left: 92%;
+    border-radius: 5px;
+    border: 4px solid rgb(255, 255, 255);
+    cursor: pointer;
+    color: white;
+}
+.imgpop{
+    width: 40%;
+    margin-right: 120px;
+    border-radius: 5px;
+
+}
+
+.imgchelsea{
+    height: 40%;
+    width: 30%;
+    margin-top: 13%;
+    margin-left: 40%;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+.imgbayern{
+    height: 38%;
+    width: 36%;
+    margin-top: 13%;
+    margin-left: 40%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.imgliverpool{
+    height: 42%;
+    width: 32%;
+    margin-top: 12%;
+    margin-left: 43%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.imgreal{
+    height: 40%;
+    width: 30%;
+    margin-top: 13%;
+    margin-left: 43%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+   
+    
+
+
+/*max-width = hasta , min-widtw= desde*/
+@media screen and  (min-width:768px){
+   
+    .bx{
+        float: none;
+        
+        }
+    .icon{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        position: fixed;
+        background-color: rgb(1, 1, 27);
+        height: 50px;
+    }
+    .menu>ul{
+        width: 700px;
+        float:none;
+        /* background-color: blue; */
+        transition: 2s;
+        margin: 10px auto;
+    }
+    .menu>ul>li{
+        background-color: rgba(240, 186, 167, 0.055);
+        text-align: center;
+        margin-top: 0px;
+        list-style: none;
+        border-radius: 5px;
+        width:100px ;
+        display: inline-block;
+        border: .5px solid white;
+
+    }
+    .Inicio{
+        background-image: url(https://editorial.uefa.com/resources/0246-0e98e0aed53b-074f228dc0a2-1000/ucl_branding.jpeg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    .Principal{
+        margin-left: 55%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(230, 230, 230);
+        font-family:'Times New Roman', Times, serif;   
+        
+    }
+    .C{
+        margin-left: 60%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(230, 230, 230);
+        font-family:'Times New Roman', Times, serif;   
+    }
+    .B{
+        margin-left: 48%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(230, 230, 230);
+        font-family:'Times New Roman', Times, serif;   
+    }
+    .L{
+        margin-left: 57%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(230, 230, 230);
+        font-family:'Times New Roman', Times, serif;   
+    }
+    .R{
+        margin-left: 53%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(14, 14, 14);
+        font-family:'Times New Roman', Times, serif;   
+    }
+    .R2{
+        margin-left: 53%;
+        padding-left: 125px;
+        margin-top: 15%;
+        font-size: 1.3cm;
+        color: rgb(14, 14, 14);
+        font-family:'Times New Roman', Times, serif;   
+    }
+    .imgchelsea{
+    height: 40%;
+    width: 30%;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+.imgbayern{
+    height: 40%;
+    width: 30%;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.imgliverpool{
+    height: 42%;
+    width: 32%;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.imgreal{
+    height: 40%;
+    width: 30%;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+    
+}
+/* @media screen and (min-width:0px) and (max-width:359px){
+    .menu{
+        width: 100%;
+        position: fixed;
+        background-color: rgb(54, 126, 72);
+        height: 50px;
+    }
+} */
